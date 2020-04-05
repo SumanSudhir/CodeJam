@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 vector<int> calculate(vector<vector<int>> matrix){
     int n = matrix.size();
     int trace = 0;
@@ -12,7 +11,6 @@ vector<int> calculate(vector<vector<int>> matrix){
     for(int i=0;i<n;i++){
         trace +=  matrix[i][i];
     }
-
     for(int r=0;r<n;r++){
         int count_r = 0;
         int count_c = 0;

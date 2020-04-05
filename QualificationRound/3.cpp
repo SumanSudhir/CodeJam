@@ -2,10 +2,8 @@
 
 using namespace std;
 
-
 string calculate(vector<vector<int>> matrix){
 
-    // vector<vector<int>> orig_mat = matrix;
     int n = matrix.size();
     for(int i=0;i<n;i++){
         matrix[i].push_back(i);
@@ -25,13 +23,11 @@ string calculate(vector<vector<int>> matrix){
         if(start >= track_c){
             output[index] = 'C';
             track_c = stop;
-            // if(track_j <= stop) track_j = 0;
         }
 
         else if(start >= track_j){
             output[index] = 'J';
             track_j = stop;
-            // if(track_c <= stop) track_c = 0;
         }
         else return "IMPOSSIBLE";
     }
@@ -63,7 +59,6 @@ int main(){
 
           matrix.push_back(row);
       }
-
         output = calculate(matrix);
         cout<< "Case " <<"#"<<(i+1) <<": "<< output << endl;
     }
