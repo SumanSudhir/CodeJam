@@ -7,5 +7,5 @@ https://codingcompetitions.withgoogle.com/codejam/
 1   | Accepted  | Not Available | Not Available
 2   | Accepted  | Accepted      | Not Available
 3   | Accepted  | Accepted      | Not Available
-4   | Fail      | Failed        | Failed        
+4   | Accepted  | Failed        | Failed        
 5   | Didn't Attempt  | Didn't Attempt | Not Available
